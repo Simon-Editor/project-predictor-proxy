@@ -1,0 +1,59 @@
+/* ===============================
+   Base Background and Typography
+================================== */
+body {
+    background: url('../images/software-bg.png') no-repeat center center fixed;
+    background-size: cover;
+    background-color: #f9f9f9; /* fallback */
+    color: #333;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* ===============================
+   Primary Color Customization
+================================== */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover,
+.btn-outline-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    color: #fff;
+}
+
+footer,
+.navbar {
+    background-color: #007bff !important;
+    color: #fff;
+}
+
+/* ===============================
+   Card Styling (Login/Register)
+================================== */
+.card {
+    background-color: rgba(255, 255, 255, 0.95); /* semi-transparent white */
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+/* ===============================
+   Image Responsiveness
+================================== */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ===============================
+   Centering Forms
+================================== */
+.row.justify-content-center {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
